@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 8 Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Class 8 Learning Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to the Learning Hub!</h2>
+        <p>Explore quizzes, study materials, and more to help you succeed in Class 8.</p>
+    </section>
+    
+    <section id="quiz">
+        <h2>Interactive Quiz</h2>
+        <p>Test your knowledge with our interactive quiz below:</p>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What is the capital of France?</p>
+                <input type="radio" id="paris" name="q1" value="Paris">
+                <label for="paris">Paris</label><br>
+                <input type="radio" id="rome" name="q1" value="Rome">
+                <label for="rome">Rome</label><br>
+                <input type="radio" id="madrid" name="q1" value="Madrid">
+                <label for="madrid">Madrid</label>
+            </div>
+            <button type="button" onclick="checkAnswers()">Submit</button>
+        </form>
+        <p id="result"></p>
+    </section>
+    
+    <section id="resources">
+        <h2>Study Resources</h2>
+        <ul>
+            <li><a href="https://www.khanacademy.org">Khan Academy</a></li>
+            <li><a href="https://www.quizlet.com">Quizlet</a></li>
+            <li><a href="https://www.duolingo.com">Duolingo</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Class 8 Learning Hub. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
